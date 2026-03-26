@@ -7,8 +7,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class LintingSampleService {
 
-    public LintingSampleService() {
-    }
 
     public int sumPositiveValues(final List<Integer> values) {
         final int minimumAccepted = 0;
