@@ -20,5 +20,4 @@ jobs:
           cache: maven
 
       - name: Run lint checks
-        run: ./mvnw -B verify
-
+        run: ./mvnw -B -Plint verify
