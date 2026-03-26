@@ -10,6 +10,7 @@ public class LintingSampleService {
     public int sumPositiveValues(final List<Integer> values) {
         final int minimumAccepted = 0;
         int sum = 0;
+        int counter = 0; // Unused variable to demonstrate linting
 
         for (final Integer value : values) {
             if (value != null && value > minimumAccepted) {
