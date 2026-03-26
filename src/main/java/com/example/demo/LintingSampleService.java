@@ -6,6 +6,9 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class LintingSampleService {
+    LintingSampleService () {
+        // Default constructor
+    }
 
 
     public int sumPositiveValues(final List<Integer> values) {
