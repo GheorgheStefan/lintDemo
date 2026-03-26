@@ -10,6 +10,8 @@ class LintingSampleServiceTests {
 
     private final LintingSampleService service = new LintingSampleService();
 
+    LintingSampleServiceTests() {
+    }
 
     @Test
     void sumPositiveValuesIgnoresNullsAndNegatives() {
