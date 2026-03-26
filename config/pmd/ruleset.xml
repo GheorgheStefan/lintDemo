@@ -6,7 +6,12 @@
     <description>Minimal PMD ruleset for pipeline linting demo.</description>
 
     <rule ref="category/java/bestpractices.xml"/>
-    <rule ref="category/java/codestyle.xml"/>
+
+    <rule ref="category/java/codestyle.xml">
+        <exclude name="AtLeastOneConstructor"/>
+        <exclude name="UnnecessaryConstructor"/>
+        <exclude name="CommentDefaultAccessModifier"/>
+    </rule>
+
     <rule ref="category/java/errorprone.xml"/>
 </ruleset>
-

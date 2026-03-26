@@ -10,9 +10,6 @@ class LintingSampleServiceTests {
 
     private final LintingSampleService service = new LintingSampleService();
 
-    LintingSampleServiceTests() {
-    }
-
     @Test
     void sumPositiveValuesIgnoresNullsAndNegatives() {
         final int total = service.sumPositiveValues(Arrays.asList(1, -2, null, 3));
